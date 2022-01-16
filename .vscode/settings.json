@@ -1,5 +1,11 @@
 {
   "cSpell.words": [
     "pscj"
-  ]
+  ],
+  "editor.fontSize": 14,
+  "editor.rulers": [
+    144
+  ],
+  "eslint.run": "onSave",
+  "window.zoomLevel": 0
 }

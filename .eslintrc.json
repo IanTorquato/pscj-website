@@ -24,8 +24,9 @@
       {
         "newlinesBetween": "always",
         "groups": [
+          "parent", // Not allowed
           "module",
-          "parent",
+          "/^@pscj/",
           [
             "sibling",
             "index"
@@ -54,5 +55,33 @@
     "import/prefer-default-export": "off",
     "no-console": "off",
     "prettier/prettier": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "extensions": [
+          ".ts",
+          ".tsx"
+        ],
+        "map": [
+          [
+            "@pscj/public",
+            "./public"
+          ],
+          [
+            "@pscj/components",
+            "./src/components"
+          ],
+          [
+            "@pscj/pages",
+            "./src/pages"
+          ],
+          [
+            "@pscj/styles",
+            "./src/styles"
+          ]
+        ]
+      }
+    }
   }
 }
