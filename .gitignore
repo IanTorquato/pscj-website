@@ -1,0 +1,14 @@
+# Folders
+/.next/
+/build
+/coverage
+/node_modules
+/out/
+
+# Files
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+yarn-debug.log*
+yarn-error.log*
