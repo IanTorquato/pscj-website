@@ -1,5 +1,11 @@
 {
+  "author": {
+    "name": "Ian Torquato",
+    "email": "iantorquato2@gmail.com"
+  },
   "name": "pscj-website",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
