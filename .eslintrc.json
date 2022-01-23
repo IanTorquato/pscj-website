@@ -18,7 +18,13 @@
     "react"
   ],
   "rules": {
-    "react/react-in-jsx-scope": 0,
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/indent": [
+      "error",
+      2
+    ],
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "class-methods-use-this": "off",
     "import-helpers/order-imports": [
       "warn",
       {
@@ -38,12 +44,6 @@
         }
       }
     ],
-    "@typescript-eslint/indent": [
-      "error",
-      2
-    ],
-    "@typescript-eslint/no-non-null-assertion": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -54,7 +54,8 @@
     ],
     "import/prefer-default-export": "off",
     "no-console": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": 0
   },
   "settings": {
     "import/resolver": {
