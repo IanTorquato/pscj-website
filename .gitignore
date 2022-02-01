@@ -1,9 +1,10 @@
 # Folders
-/.next/
+/.next
 /build
 /coverage
 /node_modules
-/out/
+/out
+/temp
 
 # Files
 .env.development.local

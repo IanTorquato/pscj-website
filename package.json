@@ -8,6 +8,8 @@
   "license": "GPL-3.0",
   "private": true,
   "scripts": {
+    "db:up": "docker compose -f docker-compose.dev.yml up -d",
+    "db:down": "docker compose -f docker-compose.dev.yml stop",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
