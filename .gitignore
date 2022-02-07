@@ -7,9 +7,7 @@
 /temp
 
 # Files
-.env.development.local
-.env.local
-.env.production.local
-.env.test.local
-yarn-debug.log*
-yarn-error.log*
+/.env
+/.vscode/settings.json
+/yarn-debug.log*
+/yarn-error.log*
