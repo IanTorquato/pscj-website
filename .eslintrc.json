@@ -52,6 +52,7 @@
         "tsx": "never"
       }
     ],
+    "import/no-anonymous-default-export": "off",
     "import/prefer-default-export": "off",
     "no-console": "off",
     "prettier/prettier": "error",
@@ -76,6 +77,10 @@
           [
             "@pscj/pages",
             "./src/pages"
+          ],
+          [
+            "@pscj/services",
+            "./src/services"
           ],
           [
             "@pscj/styles",

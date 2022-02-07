@@ -25,6 +25,9 @@
       "@pscj/pages/*": [
         "./src/pages/*"
       ],
+      "@pscj/services/*": [
+        "./src/services/*"
+      ],
       "@pscj/styles/*": [
         "./src/styles/*"
       ]
